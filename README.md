@@ -93,6 +93,7 @@ $ docker-compose exec web python manage.py createsuperuser
 ## Next Steps
 
 - Add environment variables. Either via Docker or in a file named .env in the project root directory.
+- Optionally install [Mailhog](https://github.com/mailhog/MailHog) for to handle email during development.
 - Add [gunicorn](https://pypi.org/project/gunicorn/) as the production web server.
 - Update the [EMAIL_BACKEND](https://docs.djangoproject.com/en/4.0/topics/email/#module-django.core.mail) and connect with a mail provider.
 - Make the [admin more secure](https://opensource.com/article/18/1/10-tips-making-django-admin-more-secure).
