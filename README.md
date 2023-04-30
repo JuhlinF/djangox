@@ -10,6 +10,8 @@
 - Debugging with [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar)
 - DRY forms with [django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
 - Configuration through environment variables with [Environs](https://github.com/sloria/environs)
+- Unit testing with [pytest-django](https://pytest-django.readthedocs.io/en/latest/)
+
 ![Homepage](homepage_42.png)
 ----
 
